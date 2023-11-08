@@ -1,0 +1,73 @@
+
+
+
+.a {
+    /* global 94%+ browsers support */
+    background-image: linear-gradient(to left, rgb(47, 26, 2) , rgb(202, 139, 52) );
+    background-size: 500% 100%;
+    animation: degrade-animado 3s infinite alternate;
+    
+  }
+  
+  
+  @keyframes degrade-animado {
+    0%{
+      background-position-x: 0%;
+    }
+    100%{
+      background-position-x: 100%;
+    }
+  }
+  
+  
+  .t {
+      font-family: monospace;
+      color: aliceblue;
+    
+  }
+
+  .ts {
+    font-family: monospace;
+    color: aliceblue;
+    margin-top: 100px;
+}
+  
+  
+  
+    /* botao */
+  
+    button{
+      border-radius:  30px;
+      border-color: aliceblue;
+      background-color: rgb(150, 107, 46);
+      color: aliceblue;
+      font-size: 15px;
+      transition: 1s;
+    }
+  
+    button:hover{
+      transform: scale(1.2);
+      transition: 1s;
+      background-color: white;
+      color: rgb(226, 119, 43);
+    }
+    h1:hover{
+      transform: scale(1.3);
+      transition: 1s;
+    }
+    h1{
+      transition: 1s;
+    }
+
+    
+    #div1, #div2 {
+        border: 1px solid rgb(245, 240, 240) ;
+        background-color: rgb(192, 134, 54);
+        width: 450px;
+        border-radius: 20px;
+    
+    }
+
+    #div2{
+        margin-top: 30px;
+    }
